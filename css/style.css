@@ -13,6 +13,9 @@
 .secondery-text-color {
   color: #f4f4f4;
 }
+.bg-color {
+  background: #f4fafd;
+}
 .img-gradient:after {
   content: "";
   position: absolute;
