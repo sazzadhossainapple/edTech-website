@@ -18,6 +18,9 @@
 .bg-color {
   background: #f4fafd;
 }
+.footer-bg {
+  background: #161616;
+}
 
 /*---- slider image overly css ----*/
 .img-gradient:after {
