@@ -1,8 +1,10 @@
+/*---- font familly ----css */
 .font-poppins {
   font-family: "Poppins", sans-serif;
 }
+/*---- customize color css ----*/
 .primary-title-color {
-  color: #222222;
+  color: #4a4a4a;
 }
 .secondery-title-color {
   color: #1d1d1d;
@@ -16,6 +18,8 @@
 .bg-color {
   background: #f4fafd;
 }
+
+/*---- slider image overly css ----*/
 .img-gradient:after {
   content: "";
   position: absolute;
