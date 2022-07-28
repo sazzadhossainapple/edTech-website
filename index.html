@@ -372,8 +372,8 @@
           <div class="col">
             <div>
               <img
-                class="img-fluid d-block"
-                src="images/working/working.jpg"
+                class="img-fluid d-block w-100"
+                src="images/working.png"
                 alt=""
               />
             </div>
@@ -468,8 +468,11 @@
                 <div class="modal-dialog modal-dialog-centered show">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">
-                        Modal title
+                      <h5
+                        class="modal-title font-poppins"
+                        id="exampleModalLabel"
+                      >
+                        Registration Form
                       </h5>
                       <button
                         type="button"
@@ -478,17 +481,29 @@
                         aria-label="Close"
                       ></button>
                     </div>
-                    <div class="modal-body">...</div>
-                    <div class="modal-footer">
+                    <div class="modal-body">
+                      <form action="">
+                        <input
+                          type="text"
+                          name="name"
+                          id="name"
+                          placeholder="Enter your name"
+                        />
+                      </form>
+                    </div>
+                    <div class="modal-footer font-poppins">
                       <button
                         type="button"
-                        class="btn btn-secondary"
+                        class="btn btn-secondary py-2 px-4 fw-semibold rounded-2"
                         data-bs-dismiss="modal"
                       >
                         Close
                       </button>
-                      <button type="button" class="btn btn-primary">
-                        Save changes
+                      <button
+                        type="button"
+                        class="btn btn-primary py-2 px-4 fw-semibold rounded-2"
+                      >
+                        Submit
                       </button>
                     </div>
                   </div>
@@ -679,6 +694,15 @@
               </div>
             </div>
           </div>
+        </div>
+        <div
+          class="pt-5 d-flex justify-content-center d-lg-none d-md-block d-sm-block d-block"
+        >
+          <a
+            class="btn btn-lg btn-primary py-2 px-4 rounded-2 font-poppins fw-semibold"
+            href="#"
+            >View All</a
+          >
         </div>
       </section>
       <!-- Some Students Feedback end -->
